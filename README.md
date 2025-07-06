@@ -26,6 +26,7 @@ A Node.js application that relays messages between multiple Discord and Matrix c
    - `DISCORD_TOKEN`: Your Discord bot token
    - `MATRIX_HOMESERVER_URL`: Your Matrix homeserver URL (e.g., https://matrix.org)
    - `MATRIX_ACCESS_TOKEN`: Your Matrix access token
+   - `MATRIX_USER_ID`: Your Matrix user ID (e.g., @username:matrix.org)
    - `CHANNEL_CONNECTIONS`: A JSON array of channel pairs, each containing:
      - `discord`: Discord channel ID
      - `matrix`: Matrix room ID
